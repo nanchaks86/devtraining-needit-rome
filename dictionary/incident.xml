@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="67" text_index="true" type="collection">
+        <element label="Sid_Vipuser" max_length="32" name="x_58872_needit_sid_vipuser" type="string"/>
+    </element>
+</database>
