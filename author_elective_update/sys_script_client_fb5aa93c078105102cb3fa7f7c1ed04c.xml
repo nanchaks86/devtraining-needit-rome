@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>update test requested for field with full name of the requested for when urgency changes</description>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Update the Test Requested For field</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+    var usr = g_form.getReference('u_requested_for');
+	//g_form.setValue('test_requested_for',g_user.getFullName(u_requested_for.email));
+	//g_form.setValue('test_requested_for',username.user_name);
+	alert("Requestor's last name is" + usr.email);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 04:26:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb5aa93c078105102cb3fa7f7c1ed04c</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Update the Test Requested For field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_fb5aa93c078105102cb3fa7f7c1ed04c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 06:27:37</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>6ffc4becdb54f3049df22f17d496199a</instance_id>
+        <instance_name>dev75500</instance_name>
+        <name>sys_script_client_fb5aa93c078105102cb3fa7f7c1ed04c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;update test requested for field with full name of the requested for when urgency changes&lt;/description&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Update the Test Requested For field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+    var usr = g_form.getReference('u_requested_for');
+	//g_form.setValue('test_requested_for',g_user.getFullName(u_requested_for.email));
+	//g_form.setValue('test_requested_for',username.user_name);
+	alert("Requestor's last name is" + usr.email);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-12 04:26:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fb5aa93c078105102cb3fa7f7c1ed04c&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update the Test Requested For field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_fb5aa93c078105102cb3fa7f7c1ed04c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-12 06:27:37&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1947866750</payload_hash>
+        <record_name>Update the Test Requested For field</record_name>
+        <reverted_from/>
+        <source>0aa5a32107b001102cb3fa7f7c1ed0f6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 06:27:37</sys_created_on>
+        <sys_id>68364a70070505102cb3fa7f7c1ed0f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e4cf870440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 06:27:37</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>a0364a70cf050510b48a355c69a8c3f7</update_guid>
+        <update_guid_history>a0364a70cf050510b48a355c69a8c3f7:1947866750,5ad1c6bca2c10510bd019c84d1948b1e:-1032962458,3261ce7c7bc10510386bc819ce3bcc42:-382047768,26210a7c10c10510ec27c86dbf03f617:-1013383294,ffa0ca3c19c10510d571e66f4e8c6c63:1816486063,b2000e3c02c1051003d583fe6f4f393f:1943644174,1bcf317453c105108916cb483843fb18:-509859611,194de1bc3181051046dfb31b233216b5:-247964913,f2ac65bcd98105102ff054652cb29995:1148907449,c93c297c8b810510c5d2d3a3cf172749:-1724660717,909a2d3c588105100747e0ac23d1d167:-1779668406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 06:28:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>01491e353c1140048015d927028bad49</sys_id>
+        <sys_metadata>fb5aa93c078105102cb3fa7f7c1ed04c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update the Test Requested For field</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">dd638cf507f001102cb3fa7f7c1ed0a1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_fb5aa93c078105102cb3fa7f7c1ed04c</sys_update_name>
+        <sys_update_version display_value="sys_script_client_fb5aa93c078105102cb3fa7f7c1ed04c">68364a70070505102cb3fa7f7c1ed0f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-12 06:28:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
